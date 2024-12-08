@@ -36,7 +36,7 @@ import {
 		@Column ({ nullable: false, type: 'varchar', length: 64})
 		confirmationToken: string;
 
-		@Column ({ nullable: true, type: 'varchar', length: 64}		)
+		@Column ({ nullable: true, type: 'varchar', length: 64})
 		recoverToken: string;
 
 		@CreateDateColumn()
