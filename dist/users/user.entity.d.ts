@@ -9,6 +9,6 @@ export declare class User extends BaseEntity {
     salt: string;
     confirmationToken: string;
     recoverToken: string;
-    createAt: Date;
-    updateAt: Date;
+    createdAt: Date;
+    updatedAt: Date;
 }
